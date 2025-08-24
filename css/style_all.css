@@ -4285,7 +4285,7 @@ html[dir=rtl] body {
     left: 0;
     height: 100%;
     width: 100%;
-    z-index: -1
+    z-index: auto;
 }
 
 .home-section-bg.bg-image {
@@ -4319,7 +4319,7 @@ html[dir=rtl] body {
     }
 
     .home-section:first-of-type {
-        padding-top: 40px
+        padding-top: 20%;
     }
 }
 
